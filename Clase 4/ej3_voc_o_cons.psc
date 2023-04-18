@@ -4,9 +4,11 @@
 //Fecha: 04/04/2023
 //@Copyright Globant
 Algoritmo ej3_voc_o_cons
+	
 	Definir letra ,condicion como texto
 	Escribir "Ingrese una letra para determinar si es vocal o consonante:"
 	Leer letra
+	
 	condicion="consonante"
 	letra = Minusculas(letra)
 	
