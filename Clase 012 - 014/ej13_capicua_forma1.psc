@@ -1,19 +1,19 @@
-//Realizar una función que reciba un numero ingresado por el usuario y averigüe si el número es
-//capicúa o no (Por ejemplo: 12321). Nota: recordar el uso del MOD y el Trunc. No podemos
+//Realizar una funciï¿½n que reciba un numero ingresado por el usuario y averigï¿½e si el nï¿½mero es
+//capicï¿½a o no (Por ejemplo: 12321). Nota: recordar el uso del MOD y el Trunc. No podemos
 //transformar el numero a cadena para realizar el ejercicio.
 
 
-//Autor: Daniel Dávila Lesmes
+//Autor: Daniel Dï¿½vila Lesmes
 //Contacto: danielandresd998@gmail.com - https://www.linkedin.com/in/danielandresd/
 //Fecha: 26/04/2023
 //@Copyright Globant
 
-//Función que invierte un número
-//Parámetros : num, numero a invertir de tipo entero
-//Variables: resto, toma el residuo de la operación num/10 en cada iteracion de tipo entero
-//Retorno:	inverso, número inicial invertido de tipo entero
+//Funciï¿½n que invierte un nï¿½mero
+//Parï¿½metros : num, numero a invertir de tipo entero
+//Variables: resto, toma el residuo de la operaciï¿½n num/10 en cada iteracion de tipo entero
+//Retorno:	inverso, nï¿½mero inicial invertido de tipo entero
 Funcion inverso <- invertirNum(num)
-	definir inverso,number, resto como entero
+	definir inverso, resto como entero
 	inverso=0
 	Hacer 
 		resto=num%10
@@ -22,14 +22,12 @@ Funcion inverso <- invertirNum(num)
 	Mientras Que num>0
 FinFuncion
 
-//Función que compara dos numeros y determina si son capicua
-//Parámetros : num, numInverso como enteros
+//Funciï¿½n que compara dos numeros y determina si son capicua
+//Parï¿½metros : num, numInverso como enteros
 //Retorna: resultado de si es o no capicua como caracter
 funcion resultado<-esCapicua(num,numInverso)
 	Definir resultado como caracter
-	si num%10==0 Entonces
-		num=trunc(num/10)
-	FinSi
+	
 	si num==numInverso Entonces
 		resultado= "Es capicua"
 	sino 
