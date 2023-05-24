@@ -1,7 +1,9 @@
 /**
  * Este programa escribe Hola Mundo en consola
  * utilizando el método System.out.println
+
  * @author  Daniel Andres Davila Lesmes
+
  * {@link} https://www.linkedin.com/in/danielandresd/
  * @version 1.0
  */
